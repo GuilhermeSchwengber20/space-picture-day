@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: url('/img/galaxy-night.jpg');
+    background-size: cover;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.containerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px #444;
+}
+
+
+.containerContent .containerText{
+    text-align: center;
+    padding: 20px;
+}
+
+.containerContent .containerInput{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.containerContent .containerInput input{
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #999;
+}
+
+.containerContent .containerInput button{
+    width: 100%;
+    max-width: 150px;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10px;
+    background: transparent;
+    border: 3px solid #000;
+    font-size: 16px;
+}
+
+.containerContent .containerInput button:hover::before{
+    width: 100%;
+    content: 'Pesquisar'
+}
+
+img{
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    text-align: center;
+    border: 2px solid #fcfcfc;
+}
